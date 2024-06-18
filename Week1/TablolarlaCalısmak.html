@@ -1,66 +1,117 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sınıf Tablosu</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #000;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    
+   
+<meta charset="UTF-8">
+    
+    <
+
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+<title>Kullanıcı Bilgi Formu</title>
+
+</h
 </head>
 <body>
-    <h1>Sınıf Tablosu</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Öğrenci Numarası</th>
-                <th>Adı</th>
-                <th>Soyadı</th>
-                <th>Notu</th>
-                <th>Doğum Tarihi</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Ali</td>
-                <td>Veli</td>
-                <td>85</td>
-                <td>01/01/1999</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Ayşe</td>
-                <td>Türk</td>
-                <td>90</td>
-                <td>01/01/1999</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Mehmet</td>
-                <td>Ahmet</td>
-                <td>78</td>
-                <td>01/01/1999</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Rohat</td>
-                <td>Doğaner</td>
-                <td>100</td>
-                <td>01/01/1999</td>
-            </tr>
-        </tbody>
-    </table>
+    
+    
+<h1>Kullanıcı Bilgi Formu</h1>
+    
+    <
+<form action="submit_form.php" method="post">
+        
+     
+<div>
+            
+            <
+
+         
+
+   
+<label for="firstName">Ad:</label>
+            
+        
+
+  
+<input type="text" id="firstName" name="firstName" required>
+        
+        </div
+
+        
+
+   
+</div>
+        
+        
+
+   
+<div>
+            
+            
+
+         
+
+      
+
+  
+<label for="lastName">Soyad:</label>
+            
+            <
+
+        
+
+    
+<input type="text" id="lastName" name="lastName" required>
+        
+        </d
+
+       
+
+   
+</div>
+        
+        <
+
+       
+
+    
+<div>
+            
+            <
+
+           
+<label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Parola:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <span>Cinsiyet:</span>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Erkek</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Kadın</label>
+        </div>
+        <div>
+            <label for="fruit">Favori Meyve:</label>
+            <select id="fruit" name="fruit" required>
+                <option value="apple">Elma</option>
+                <option value="banana">Muz</option>
+                <option value="strawberry">Çilek</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Gönder</button>
+        </div>
+    </form>
 </body>
 </html>
