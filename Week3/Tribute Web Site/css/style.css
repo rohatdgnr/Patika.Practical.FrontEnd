@@ -1,0 +1,311 @@
+:root{
+    --primary-color: brown;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #282828;
+    background-color: whitesmoke;
+}
+p{
+    color: #484848;
+}
+
+.section{
+    padding: 8rem 0;
+}
+
+.section.white{
+    background-color: #030039;
+    color: white;
+}
+
+.section-title{
+
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.section-title::first-letter{
+    color: var(--primary-color);
+}
+
+.button{
+    color: white;
+    min-width: 140px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 0 24px;
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+}
+a.button{
+    text-decoration: none;
+}
+button.button{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}
+.button:hover{
+    background-color: var(--primary-color);
+    text-decoration: underline;
+    transform: translate(-5px,-5px);
+    transition-duration: 0.3s;
+}
+
+/*Header*/
+
+#header{
+    position: relative;
+    padding: 32px;
+    background-color: #030039;
+    color: white;
+}
+#header .logo{
+    display: block;
+}
+#nav{
+
+    display: flex;
+    gap: 0 32px;
+    justify-content: end;
+    align-items: center;
+}
+#nav .nav-item{
+    color: white;
+    padding: 2px;
+}
+#nav .nav-item:hover{
+    text-decoration: underline;
+    transform: translate(-5px,-5px);
+    padding: 10px;
+    transition-duration: 0.8s;
+}
+
+#mobile-menu{
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 16px 0;
+    z-index: 10;
+}
+#mobile-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+}
+#mobile-menu a:hover{
+    background-color: var(--primary-color);
+}
+/* Hero */
+
+.hero-caption{
+    max-width: 585px;
+    padding: 32px;
+    margin-left: auto;
+}
+.hero-caption h1{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.hero-caption p{
+    font-size: 20px;
+    margin: 1.5em 0;
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* About */
+
+#about{
+    max-width: 800px;
+    text-align: center;
+    margin: 0  auto;
+    padding: 0 16px;
+}
+#about h4{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: -1.75em;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    color: white;
+}
+
+/* Blog */
+
+.blog{
+    margin: 8px 0;
+    background-color: white;
+}
+.blog-content{
+    padding: 24px;
+}
+
+.blog img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog h3 {
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.45;
+}
+.blog p {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    line-height: 1.45;
+}
+
+/* Feedback */
+.comment {
+    margin: 8px 0;
+    padding: 32px;
+    background-color: whitesmoke;
+}
+
+.comment img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.comment h3{
+    font-weight: 500;
+    margin: 0 0 0 8px;
+    display: inline-block;
+}
+
+.comment p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    display: inline-block;
+}
+
+/* Footer */
+#footer{
+    padding: 32px 0;
+    text-align: center;
+    background-color: #030039;
+    color: white;
+}
+#footer a{
+    color: white;
+}
+
+#mobile-menu-button{
+    display: none;
+    margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+    #header{
+        padding: 24px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section{
+        padding: 4rem 0;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+
+    #header{
+        padding: 16px 0;
+    }
+    #header{
+        padding: 24px 0;
+    }
+    #mobile-menu-button{
+        display: block;
+    }
+    #nav{
+        display: none;
+    }
+
+    .hero-caption{
+        max-width: auto;
+        margin-left: 0;
+    }
+    .hero-caption h1{
+        font-size: 30px;
+    }
+
+    .hero-caption p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .section{
+        padding: 4rem 0;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+
+    #header{
+        padding: 16px 0;
+    }
+    #header{
+        padding: 24px 0;
+    }
+    #mobile-menu-button{
+        display: block;
+    }
+    #nav{
+        display: none;
+    }
+
+    .hero-caption{
+        max-width: auto;
+        margin-left: 0;
+    }
+    .hero-caption h1{
+        font-size: 30px;
+    }
+
+    .hero-caption p{
+        font-size: 16px;
+    }
+
+    #about h4{
+        font-size: 28px;
+        margin-top: -1em;
+    }
+    #about p{
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 0;
+    }
+}
