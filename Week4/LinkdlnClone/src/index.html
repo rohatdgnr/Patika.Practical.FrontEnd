@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+          integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+
+</head>
+
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbarbg sticky-top d-flex mb-5 border-bottom">
+
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fab fa-linkedin fa-lg" style="color: #0a66c2; font-size: 2.4rem"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <form class="form-inline">
+            <input class="form-control searche" type="search" placeholder="Arama Yap" aria-label="Search"/>
+        </form>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home fa-lg text-center" style="color: black">
+                            <div class="menutext mt-2" style="color: black">
+                                Home Page
+                            </div>
+                        </i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user-friends fa-lg text-center">
+                            <div class="menutext mt-2">
+                                Contacts
+                            </div>
+                        </i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-briefcase fa-lg text-center">
+                            <div class="menutext mt-2">
+                                Jobs
+                            </div>
+                        </i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-comment-dots fa-lg text-center">
+                            <div class="menutext mt-2">
+                                Messages
+                            </div>
+                        </i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-bell fa-lg text-center">
+                            <div class="menutext mt-2">
+                                Notifications
+                            </div>
+                        </i>
+                    </a>
+                </li>
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#">
+                        <img class="rounded-circle ml-2 text-center" src="images/linkedin_profile.jpeg" style="width: 25px; height: 25px;"/>
+                        <div class="menutext">
+                            Profile
+                        </div>
+                    </a>
+                </li>
+
+                <li class="nav-item border-left h-25">
+                    <a class="nav-link ml-4 mr-2" href="#"><i class="fas fa-th fa-lg text-center">
+                        <div class="menutext">
+                            Job
+                        </div>
+                    </i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-chalkboard fa-lg text-center">
+                        <div class="menutext">
+                            Publish Hiring
+                        </div>
+                    </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <!-- left - start -->
+        <div class="col-3">
+            <!-- left -->
+            <div class="card">
+                <div class="card-header text-center"
+                     style="background-image: url(https://image.shutterstock.com/image-vector/seamless-pattern-computer-background-numbers-260nw-1410295883.jpg); height: 50px;">
+                    <img src="images/linkedin_profile.jpeg" class="rounded-circle" style="width: 70px; height: 70px; border: 2px solid white;" />
+                </div>
+                <div class="card-body mt-4" style="font-family: 'Poppins', sans-serif;">
+                    <p class="card-title header text-center">
+                        <a href="https://www.linkedin.com/in/rohatdo%C4%9Faner/" target="_blank"
+                           style="color: #212529;">Rohat Doğaner</a>
+                    </p>
+                    <div class="text-center" style="margin-bottom: 10px; color: #5f5f5f;">
+                        Junior Back-End Developer - Patika
+                    </div>
+                    <hr>
+                    <div class="card-text">
+                        <div style="width: 200px;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span class="view">Who viewed your profile</span>
+                                <span class="float-right view" style="color: #0a66c2; margin-left: auto;">256</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span class="view">Views for your broadcast</span>
+                                <span class="float-right view" style="color: #0a66c2; margin-left: auto;">104</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer ">
+                    <i class="fas fa-bookmark"></i><span class="mb-4 ml-2">My items</span>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header" style="margin-bottom: -22px; font-size: 18px">
+                    My Pages
+                </div>
+                <div class="card-body mt-3">
+                    <div class="card-title mt-2 mb-1">
+                        <img src="data:image/png;base64,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" style="width: 32px; height: 32px" />
+                        <div style=" font-size: 15px; font-weight: bold; margin-top: -35px; margin-left: 37px;">
+                            Kablosuz Beyin
+                        </div>
+                        <div style="font-size: 13px; font-weight: bold; color: gray; margin-left: 38px;">
+                            Page Notifications
+                            <span class="float-right" style="color: #0a66c2">10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header" style="font-size: 18px">
+                    Newest
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span
+                                    class="ml-1 font-weight-bold"
+                                    style="font-size: 13px; color: #5f5f5f">
+                                    patika.dev
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    front-end
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    back-end
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    html
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    bootstrap
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    css
+                                </span>
+                        </div>
+                        <div class="mt-3 categories">
+                            Groups
+                        </div>
+                        <span class="mt-2 categories">
+                                activities
+                            </span>
+                        <span class="float-right mb-5" style="font-size: 23px; color: #5f5f5f">
+                                +
+                            </span>
+                        <div class="mt-3 mb-1 categories">
+                            Followed Hashtags
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    patika.dev
+                                </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-hashtag" style="font-size: 13px;">
+                            </i>
+                            <span class="ml-1 font-weight-bold" style="font-size: 13px; color: #5f5f5f">
+                                    front-end
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    Explore More
+                </div>
+            </div>
+        </div>
+
+        <!-- middle - start -->
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body text-center">
+                    <input type="text" class="form-control content mb-3" placeholder="Begin Post"/>
+                    <span><button class="mediatext btn btn-light mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" fill="#70B5F9">
+                                    <path
+                                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                                    </path>
+                                </svg>
+                                <span class="ml-1 mediatext">
+                                    Photo
+                                </span>
+                            </button>
+                        </span>
+                    <span><button class="mediatext btn btn-light mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" fill="#7FC15E">
+                                    <path
+                                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z">
+                                    </path>
+                                </svg><span class="ml-1 mediatext">
+                                    Video
+                                </span>
+                            </button>
+                        </span>
+                    <span><button class="mediatext btn btn-light mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" fill="#E7A33E">
+                                    <path
+                                            d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                                    </path>
+                                </svg><span class="ml-1 mediatext">
+                                    Activity
+                                </span>
+                            </button>
+                        </span>
+                    <span><button class="mediatext btn btn-light mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                     fill="" width="24" height="24" focusable="false" fill="#F5987E">
+                                    <path
+                                            d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z">
+                                    </path>
+                                </svg><span class="ml-1 mediatext">
+                                    Text
+                                </span>
+                            </button>
+                        </span>
+                </div>
+            </div>
+            <hr>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGiWpTUewQ76Q/profile-displayphoto-shrink_400_400/0/1613923672228?e=1669248000&v=beta&t=CwG-2a-EpNaLNhXLKJZc9wIGyrA587NjE2cM3p9KM48" class="postphoto">
+                    <div class="d-inline-flex flex-column ml-1 align-middle">
+                            <span class="posttext">
+                                <a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">
+                                    David J. Malan
+                                </a>
+                            </span>
+                        <span class="profile-desc">
+                                I teach CS50
+                            </span>
+                        <span class="profile-desc">25a
+                                <i class="fas fa-globe-americas fa-sm">
+                                </i>
+                            </span>
+                    </div>
+                    <span class="float-right">
+                            <i class="fas fa-ellipsis-h fa-md">
+                            </i>
+                        </span>
+                </div>
+                <div>
+                    <p class="card-text m-3 card-desc">
+                        Congrats!
+                    </p>
+                    <div>
+                        <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top mb-1"
+                             alt="..." />
+                    </div>
+                    <div class="ml-3 mb-2">
+                            <span>
+                                <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="Like Icon">
+                            </span>
+                        <span>
+                                <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="Clap Icon">
+                            </span>
+                        <span class="profile-desc">
+                                <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="Heart Icon"> 958
+                            </span>
+                    </div>
+                    <div class="card-footer mt-1 text-center">
+                            <span>
+                                <button class="ref btn btn-light p-2">
+                                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Like
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="far fa-comment fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Comment
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Share
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Post
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2 mb-3">
+                <div class="card-header">
+                        <span>
+                            <img src="images/furkan_profile.jpeg" class="postphoto">
+                            <div class="d-inline-flex flex-column ml-1 align-middle">
+                                <span class="posttext">
+                                    <a href="https://www.linkedin.com/in/ffurkanaydemir/" target="_blank" style="color: #212529">
+                                        Furkan Aydemir
+                                    </a>
+                                </span>
+                                <span class="profile-desc">Team Leader at Ekobis | Patika | Kablosuz Beyin |</span>
+                                <span class="profile-desc">1s
+                                    <i class="fas fa-globe-americas fa-sm"></i>
+                                </span>
+                            </div>
+
+                            <span class="float-right">
+                                <i class="fas fa-ellipsis-h fa-md"></i>
+                            </span>
+                </div>
+                <div>
+                    <p class="card-text m-3 card-desc">
+                        Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!
+                    </p>
+                    <div>
+                        <img src="https://miro.medium.com/max/1080/1*gdDWFSvHDt57DS2zsh_0Bg.png"
+                             class="card-img-top mb-1" alt="..." />
+                    </div>
+                    <div class="ml-3 mb-2">
+                            <span class="">
+                                <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="Like Icon">
+                            </span>
+                        <span>
+                                <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="Clap Icon">
+                            </span>
+                        <span class="profile-desc">
+                                <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="Heart Icon">
+                                210
+                            </span>
+                    </div>
+                    <div class="card-footer mt-1  text-center">
+                            <span>
+                                <button class="ref btn btn-light p-2">
+                                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Like
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="far fa-comment fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Comment
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Share
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Post
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="card-header">
+                        <span>
+                            <img src="images/linkedin_profile.jpeg" class="postphoto">
+                            <div class="d-inline-flex flex-column ml-1 align-middle">
+                                <span class="posttext">
+                                    <a href="https://www.linkedin.com/in/rohatdo%C4%9Faner/" target="_blank"
+                                       style="color: black;">
+                                        Rohat Doğaner
+                                    </a>
+                                </span>
+                                <span class="profile-desc">Co-Founder at Kablosuz Beyin | Intern & Community Lead at
+                                    Patika.dev</span>
+                                <span class="profile-desc">25a
+                                    <i class="fas fa-globe-americas fa-sm"></i>
+                                </span>
+                            </div>
+                            <span class="float-right">
+                                <i class="fas fa-ellipsis-h fa-md">
+                                </i>
+                            </span>
+                </div>
+                <div>
+                    <p class="card-text m-3 card-desc">
+                        Lets make sone smiles...
+                    </p>
+                    <div>
+                        <img src="https://i.pinimg.com/originals/ef/38/6a/ef386ab449cae924321692f10dffc783.jpg" class="card-img-top mb-1" alt="..." />
+                    </div>
+                    <div class="ml-3 mb-2">
+                            <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                                                alt="Like Icon"></span>
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"
+                                            alt="Clap Icon"></span>
+                        <span class="profile-desc"><img
+                                src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="Heart Icon"> 224
+                            </span>
+                    </div>
+                    <div class="card-footer mt-1 text-center">
+                            <span>
+                                <button class="ref btn btn-light p-2">
+                                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Like
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="far fa-comment fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Comment
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Share
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                        <span>
+                                <button class="ref btn btn-light p-2 ml-4">
+                                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                                        <span class="ml-2 mediatext">
+                                            Post
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right - Start -->
+        <div class="col-3">
+            <div class="card" style="width: 19rem">
+                <div class="card-header">
+                    <span>Add To Your Feed</span>
+                    <span>
+                            <i class="fas fa-info-circle float-right">
+                            </i>
+                        </span>
+                </div>
+                <div class="card-title mt-3">
+                    <div class="ml-3">
+                        <img src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/180/original/11188290-461044804062854-1290850627040404888-n.png" class="right-panel-pic mr-1" />
+                        <div class="header ml-1 d-inline-flex" style="font-size: 14px">
+                            Codecraft
+                        </div>
+                        <span class="float-right mr-3 mt-2">
+                                <button class="btn btn-outline-info btn-sm" style="border-radius: 50px">
+                                    <strong>+ Takip Et</strong>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+                <div class="card-title mt-2 mb-3">
+                    <div class="ml-3">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu_D4RFD8cEcBUZHIxw2MPGANf6mzfnjgVEtSrRPSg=s900-c-k-c0x00ffffff-no-rj" class="right-panel-pic mr-1" />
+                        <div class="header ml-1 d-inline-flex" style="font-size: 14px">
+                            Navlungo
+                        </div>
+                        <span class="float-right mr-3 mt-2">
+                                <button class="btn btn-outline-info btn-sm" style="border-radius: 50px">
+                                    <strong>+ Takip Et</strong>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3" style="width: 19rem">
+                <div class="card-header">
+                        <span class="text-center">
+                            Most Liked
+                        </span>
+                    <span>
+                            <i class="fas fa-info-circle float-right"></i>
+                        </span>
+                </div>
+                <div class="card-title mt-3 mb-4">
+                    <ol>
+                        <li>
+                            The Six Morning Habits of High Per...
+                            <div class="right-panel-desc">
+                                Pete Mocakatais | How to be awesome at you...
+                            </div>
+                        </li>
+                        <li class="mt-2">
+                            Onconscious Blas
+                            <div class="right-panel-desc">
+                                Stacey Gordon
+                            </div>
+                        </li>
+                        <li class="mt-2">
+                            Critical Thinking for Better Judgem...
+                            <div class="right-panel-desc">
+                                Becki Saltzman
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="card-footer" style="color: #0a66c2; font-size: 15px; margin-top: -25px">
+                    Show More
+                </div>
+            </div>
+            <div class="text-center sticky-top pt-5" style="width: 19rem;">
+                <ul class="list-inline">
+                    <li class="list-inline-item mt-3" style=" margin-top: 5rem;">
+                        <a href="https://about.linkedin.com/" class="link">
+                            About
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
+                           class="link">
+                            Accessibility
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
+                           class="link">
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="link">
+                            Privacy And Policy
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
+                           class="link">
+                            Advertising
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
+                           class="link">
+                            Advert
+                        </a>
+                    </li>
+                </ul>
+                <div class="text-center" style="margin-top: 10px">
+                    <img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" width="90px"
+                         height="20px" /><span style="font-size: 12px; margin-left: -15px"> © Linkedin Corporation |
+                            2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Right-Bottom-Mesajlaşma - Start -->
+<nav class="navbar navbar-expand-xl navbar-light bg-white position-sticky fixed-bottom border ml-auto"
+     style=" width: 300px; height: 50px; position: -webkit-sticky; border-radius: 5px;  right: 15px;">
+    <a class="navbar-brand" href="#">
+        <img src="images/linkedin_profile.jpeg" style="width: 30px; height: 30px; border-radius: 50%;" />
+    </a>
+    <span style="font-size: 14px; font-family:Arial, Helvetica, sans-serif;">
+            <strong>Messages</strong>
+        </span>
+    <span class="offset-3"><img src="https://static.thenounproject.com/png/729124-200.png" width="15px" height="15px"></span>
+    <span><i class="fas fa-ellipsis-h fa-sm ml-3 float-right"></i></span>
+    <span><i class="fas fa-chevron-up fa-sm ml-3 float-right"></i></span>
+</nav>
+</body>
+
+</html>
