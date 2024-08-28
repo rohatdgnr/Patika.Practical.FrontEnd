@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+body {
+    background-color: #F1F2F6;
+}
+
+#root {
+    max-width: 1000px;
+    margin: auto;
+}
